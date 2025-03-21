@@ -1,4 +1,4 @@
-![logo do java](https://upload.wikimedia.org/wikipedia/pt/thumb/3/30/Java_programming_language_logo.svg/1200px-Java_programming_language_logo.svg.png)
+<picture>![logo do java](https://upload.wikimedia.org/wikipedia/pt/thumb/3/30/Java_programming_language_logo.svg/1200px-Java_programming_language_logo.svg.png)</picture>
 # Java
 ## Criação e Impacto 
 O Java é uma linguagem de programação orientada a objetos criada em 1991 por um grupo de engenheiros da Sun Microsystems, liderados por James Gosling, Mike Sheridan e Patrick Naughton.
@@ -17,6 +17,13 @@ Com o tempo, sua aplicabilidade se expandiu para além da web, se tornando essen
 * Java SE 15: Introduziu classes ocultas e interfaces seladas, que controlam quem pode herdar classes e interfaces.
 * Java SE 22: Evoluiu a linguagem para que os alunos possam escrever seus primeiros programas sem a necessidade de compreender os recursos da linguagem.
 * Java SE 23: Aprimorou a linguagem e o ambiente de desenvolvimento.
+
+<style>
+  picture {
+    margin: 20px auto;
+    width: 200px
+  }
+</style>
 
 
 
