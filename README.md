@@ -15,7 +15,7 @@ Com o tempo, sua aplicabilidade se expandiu para além da web, se tornando essen
 * Java SE 23: Aprimorou a linguagem e o ambiente de desenvolvimento.
 
 ## IDEs para desenvolvimento em Java
-1. Eclipse: Lançada em 2001, possuindo como autor a IBM, sobre a licença EPL (Eclipse Public Licence), o Eclipse é uma IDE para desenvolvimento em Java que também suporta diversas outras linguagens apenas com a instalação de plugins (C/C++, PHP, Python, Kotlin, entre outras). O download do Eclipse poderá ser realizado em seu próprio site.
+1. **Eclipse**: Lançada em 2001, possuindo como autor a IBM, sobre a licença EPL (Eclipse Public Licence), o Eclipse é uma IDE para desenvolvimento em Java que também suporta diversas outras linguagens apenas com a instalação de plugins (C/C++, PHP, Python, Kotlin, entre outras). O download do Eclipse poderá ser realizado em seu próprio site.
 ### Vantagens
 * Gratuito e de código aberto
 * Suporte a múltiplas linguagens além de Java
@@ -25,7 +25,7 @@ Com o tempo, sua aplicabilidade se expandiu para além da web, se tornando essen
 * Pode ser mais pesado em comparação com outras IDEs
 * Interface menos moderna do que concorrentes como IntelliJ IDEA
 * Algumas configurações avançadas podem ser complexas para iniciantes
-2. NetBeans: O NetBeans é uma IDE gratuita e de código fonte aberto para desenvolvimento Java, porém extensível para diversas outras linguagens, como PHP, Python, JavaScript, etc.
+2. **NetBeans**: O NetBeans é uma IDE gratuita e de código fonte aberto para desenvolvimento Java, porém extensível para diversas outras linguagens, como PHP, Python, JavaScript, etc.
 Lançada em dezembro de 2000, o NetBeans é uma das principais IDEs para o desenvolvimento Java. Inicialmente desenvolvido como um software proprietário, em 2010, ao ser adquirido pela Oracle, o NetBeans se tornou parte do ecossistema Java, alavancando ainda mais sua utilização e popularidade. IDE oficial para o desenvolvimento Java, seja ela Desktop ou Web. Em seu site é possível baixar o NetBeans, além de visualizar suas características.
 ### Vantagens
 * Gratuita e de código aberto, com suporte oficial da Oracle.
@@ -36,7 +36,7 @@ Lançada em dezembro de 2000, o NetBeans é uma das principais IDEs para o desen
 ### Desvantagens
 * Pode não ser tão rápida quanto outras IDEs, especialmente em projetos maiores.
 * A disponibilidade de plugins é menor em comparação com o Eclipse.
-3. Intellij: O IntelliJ IDE é uma das principais IDEs do mercado. Criada pela Jetbrains, uma empresa especializada no desenvolvimento de IDEs, o IntelliJ teve um crescimento impressionante nos últimos anos. O download do IntelliJ pode ser feito em seu site oficial. O IntelliJ possui duas versões, a “Ultimate” que possui diversos recursos, como ferramentas de bancos de dados, suporte nativo ao Spring e detecção de duplicidades. Já sua versão “Community”, um pouco mais limitada, porém completa o bastante para os principais desenvolvedores do mercado.
+3. **Intellij**: O IntelliJ IDE é uma das principais IDEs do mercado. Criada pela Jetbrains, uma empresa especializada no desenvolvimento de IDEs, o IntelliJ teve um crescimento impressionante nos últimos anos. O download do IntelliJ pode ser feito em seu site oficial. O IntelliJ possui duas versões, a “Ultimate” que possui diversos recursos, como ferramentas de bancos de dados, suporte nativo ao Spring e detecção de duplicidades. Já sua versão “Community”, um pouco mais limitada, porém completa o bastante para os principais desenvolvedores do mercado.
 ### Vantagens
 * Oferece uma interface moderna e intuitiva, facilitando a navegação e o uso
 * Possui recursos avançados de refatoração e suporte a diversas linguagens além de Java
@@ -124,7 +124,23 @@ public class Main {
     }
 }
 ```
+## Mercado de Trabalho para Desenvolvedores Java
+### Áreas de Atuação
+O Java é amplamente utilizado em diversas áreas da tecnologia da informação: :​
 
+* Desenvolvimento Web: Criação de aplicações web dinâmicas e escaláveis.​
+* Desenvolvimento Mobile: Desenvolvimento de aplicativos para dispositivos móveis, especialmente com Android.​
+* Back-end: Implementação de lógica de negócios e gerenciamento de dados em servidores.​
+* Sistemas Corporativos: Desenvolvimento de soluções empresariais, como sistemas de gestão e ERPs.​
+* Aplicações Científicas: Desenvolvimento de softwares para pesquisa e simulações científicas.
 
+### Principais Tecnologias e Framworks Exigidos
+As empresas podem exigir tecnologias e frameworks como Spring Framework, Spring Boot, JPA, Maven, Gradle, Git, GitHub, Docker, Kubernetes, entre outros, para programadores Java.
+
+### Salário Médio
+O mercado de trabalho para desenvolvedores Java no Brasil oferece salários que variam conforme o nível de experiência e a região. Segundo o Glassdoor:
+* A média salarial de um desenvolvedor Java júnior no Brasil é de R$ 2.000 a R$ 3.000 por mês
+* A média salarial de um desenvolvedor Java Pleno no Brasil é de R$ 6.000 a R$ 9.000 por mês
+* A média salarial de um desenvolvedor Java Senior no Brasil é de R$ 6.000 a R$ 10.000 por mês
 
 
