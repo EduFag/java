@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/63788afd-63ca-4219-8c3b-cf767f901eed)# Java
+# Java
 ## Criação e Impacto 
 O Java é uma linguagem de programação orientada a objetos criada em 1991 por um grupo de engenheiros da Sun Microsystems, liderados por James Gosling, Mike Sheridan e Patrick Naughton.
 Inicialmente, a linguagem foi desenvolvida para ser usada em uma ampla variedade de dispositivos eletrônicos, como TVs interativas e eletrodomésticos inteligentes.
