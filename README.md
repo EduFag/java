@@ -13,3 +13,118 @@ Com o tempo, sua aplicabilidade se expandiu para além da web, se tornando essen
 * Java SE 15: Introduziu classes ocultas e interfaces seladas, que controlam quem pode herdar classes e interfaces.
 * Java SE 22: Evoluiu a linguagem para que os alunos possam escrever seus primeiros programas sem a necessidade de compreender os recursos da linguagem.
 * Java SE 23: Aprimorou a linguagem e o ambiente de desenvolvimento.
+
+## IDEs para desenvolvimento em Java
+1. Eclipse: Lançada em 2001, possuindo como autor a IBM, sobre a licença EPL (Eclipse Public Licence), o Eclipse é uma IDE para desenvolvimento em Java que também suporta diversas outras linguagens apenas com a instalação de plugins (C/C++, PHP, Python, Kotlin, entre outras). O download do Eclipse poderá ser realizado em seu próprio site.
+### Vantagens
+* Gratuito e de código aberto
+* Suporte a múltiplas linguagens além de Java
+* Extensibilidade por meio de plugins
+* Grande comunidade e vasta documentação
+### Desvantagens
+* Pode ser mais pesado em comparação com outras IDEs
+* Interface menos moderna do que concorrentes como IntelliJ IDEA
+* Algumas configurações avançadas podem ser complexas para iniciantes
+2. NetBeans: O NetBeans é uma IDE gratuita e de código fonte aberto para desenvolvimento Java, porém extensível para diversas outras linguagens, como PHP, Python, JavaScript, etc.
+Lançada em dezembro de 2000, o NetBeans é uma das principais IDEs para o desenvolvimento Java. Inicialmente desenvolvido como um software proprietário, em 2010, ao ser adquirido pela Oracle, o NetBeans se tornou parte do ecossistema Java, alavancando ainda mais sua utilização e popularidade. IDE oficial para o desenvolvimento Java, seja ela Desktop ou Web. Em seu site é possível baixar o NetBeans, além de visualizar suas características.
+### Vantagens
+* Gratuita e de código aberto, com suporte oficial da Oracle.
+* Multiplataforma: Podemos utilizar o NetBeans nos principais sistemas operacionais do mercado (Windows, Linux e macOS)
+* Possui ferramentas integradas para desenvolvimento web, desktop e móvel
+* Melhor suporte ao Java: Por fazer parte do ecossistema do Java, é a IDE oficial e recomendada pela própria Oracle
+* Criação de interfaces: Possui suporte para criação de interfaces para aplicações web, desktop e mobile.
+### Desvantagens
+* Pode não ser tão rápida quanto outras IDEs, especialmente em projetos maiores.
+* A disponibilidade de plugins é menor em comparação com o Eclipse.
+3. Intellij: O IntelliJ IDE é uma das principais IDEs do mercado. Criada pela Jetbrains, uma empresa especializada no desenvolvimento de IDEs, o IntelliJ teve um crescimento impressionante nos últimos anos. O download do IntelliJ pode ser feito em seu site oficial. O IntelliJ possui duas versões, a “Ultimate” que possui diversos recursos, como ferramentas de bancos de dados, suporte nativo ao Spring e detecção de duplicidades. Já sua versão “Community”, um pouco mais limitada, porém completa o bastante para os principais desenvolvedores do mercado.
+### Vantagens
+* Oferece uma interface moderna e intuitiva, facilitando a navegação e o uso
+* Possui recursos avançados de refatoração e suporte a diversas linguagens além de Java
+* Possui um ótimo assistente de código, autocompletando trechos de sentenças para facilitar a criação de aplicações
+* Suporte nativo ao Kotlin: Podemos desenvolver aplicações utilizando o Kotlin, linguagem baseada no Java criada pela própria Jetbrains
+### Desvantagens
+* A versão completa (Ultimate) é paga
+* Requer mais recursos de hardware em comparação com outras IDEs
+
+### Escolha de IDE para estudo
+A escolha da IDE ideal depende das necessidades específicas e das preferências pessoais de cada desenvolvedor. Para iniciantes, o NetBeans pode ser uma boa opção devido à sua interface amigável e suporte oficial da Oracle. A Jetbrains disponibiliza assinaturas gratuitas da versão Ultimate do Intellij para estudantes, portanto, também pode ser uma boa opção pela quantidade de recursos oferecidos e a interface mais moderna.
+
+## Programação Orientada a Objetos (POO)
+A programação orientada a objetos (POO) em Java é uma abordagem de programação que organiza o código em objetos.
+### Conceitos
+1. Classe: É uma estrutura que define atributos (propriedades) e métodos (comportamentos) de um objeto. A classe funciona como um molde para criar objetos.
+2. Objeto: É uma instância de uma classe. Quando criamos um objeto, estamos criando um elemento baseado na estrutura definida pela classe.
+```
+class Carro {
+    String cor;
+    String modelo;
+
+    void acelerar() {
+        System.out.println("O carro está acelerando.");
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        Carro meuCarro = new Carro();  // Objeto criado
+        meuCarro.cor = "Vermelho";
+        meuCarro.modelo = "Sedan";
+        meuCarro.acelerar();
+    }
+}
+```
+3. Encapsulamento: É a proteção dos dados do objeto, restringindo o acesso direto e permitindo a manipulação controlada através de métodos acessores (getters e setters).
+```
+class Pessoa {
+    private String nome;
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+}
+```
+4. Herança: É o mecanismo pelo qual uma classe herda atributos e métodos de outra classe. Promove o reuso de código.
+```
+class Animal {
+    void fazerSom() {
+        System.out.println("O animal faz um som.");
+    }
+}
+
+class Cachorro extends Animal {
+    void fazerSom() {
+        System.out.println("O cachorro late.");
+    }
+}
+```
+5. Polimorfismo: É a capacidade de um objeto assumir várias formas. Pode ser implementado através da sobrescrita (override) de métodos ou da sobrecarga (overload).
+```
+class Forma {
+    void desenhar() {
+        System.out.println("Desenhando uma forma.");
+    }
+}
+
+class Circulo extends Forma {
+    @Override
+    void desenhar() {
+        System.out.println("Desenhando um círculo.");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Forma forma1 = new Forma();
+        Forma forma2 = new Circulo();
+        forma1.desenhar();  // Saída: Desenhando uma forma.
+        forma2.desenhar();  // Saída: Desenhando um círculo.
+    }
+}
+```
+
+
+
+
